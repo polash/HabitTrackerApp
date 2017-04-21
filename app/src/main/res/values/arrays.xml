@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed in the Completion drop-down Spinner -->
+    <string-array name="array_completion_options">
+        <item>@string/completion_notCompleted</item>
+        <item>@string/completion_completed</item>
+    </string-array>
+</resources>

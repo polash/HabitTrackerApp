@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Habit Tracker App</string>
+    <string name="action_dummy_data">Insert Dummy Data</string>
+    <string name="title_activity_editor">Add Habit</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="workout_name">Workout Name:</string>
+    <string name="date">Date:</string>
+    <string name="completion">Completion:</string>
+    <string name="distance_unit">km</string>
+    <string name="distance">Distance:</string>
+    <string name="completion_completed">Completed</string>
+    <string name="completion_notCompleted">Not Completed</string>
+    <string name="date_format">MM/dd/yy</string>
+</resources>
