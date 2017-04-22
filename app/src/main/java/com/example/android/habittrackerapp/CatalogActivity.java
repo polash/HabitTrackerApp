@@ -47,9 +47,9 @@ public class CatalogActivity extends AppCompatActivity {
     }
 
     /**
-     * +     * Temporary helper method to display information in the onscreen TextView about the state of
-     * +     * the pets database.
-     * +
+     * Temporary helper method to display information in the onscreen TextView about the state of
+     * the habits database.
+     *
      */
     private void displayDatabaseInfo() {
         // To access our database, we instantiate our subclass of SQLiteOpenHelper
@@ -81,7 +81,6 @@ public class CatalogActivity extends AppCompatActivity {
         try {
             // Display the number of rows in the Cursor (which reflects the number of rows in the
             // pets table in the database).
-
             displayView.setText("The habit_tracker table contains: " + cursor.getCount() + " habits.\n\n");
             displayView.append(HabitEntry._ID + " - " +
                     HabitEntry.COLUMN_HABIT_WORKOUT_NAME + " - " +
@@ -96,7 +95,6 @@ public class CatalogActivity extends AppCompatActivity {
             int distanceColumnIndex = cursor.getColumnIndex(HabitEntry.COLUMN_HABIT_DISTANCE);
             int timeColumnIndex = cursor.getColumnIndex(HabitEntry.COLUMN_HABIT_TIME);
             int completionColumnIndex = cursor.getColumnIndex(HabitEntry.COLUMN_HABIT_COMPLETION);
-
 
             //goes through each row to check
             while (cursor.moveToNext()) {
@@ -142,7 +140,6 @@ public class CatalogActivity extends AppCompatActivity {
 
         Log.v("CatalogActivity", "New Row Id " + newRowId);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

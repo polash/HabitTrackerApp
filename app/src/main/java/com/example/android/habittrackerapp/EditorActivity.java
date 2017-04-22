@@ -47,7 +47,6 @@ public class EditorActivity extends AppCompatActivity {
      */
     private int completion = 0;
 
-
     /**
      * Calender value
      */
